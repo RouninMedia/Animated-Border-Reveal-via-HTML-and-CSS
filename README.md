@@ -49,7 +49,6 @@
   background-color: rgb(191, 0, 0);
 }
 
-
 .bottomInner,
 .leftInner {
   width: 100%;
