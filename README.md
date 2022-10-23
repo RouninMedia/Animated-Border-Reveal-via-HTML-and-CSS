@@ -28,6 +28,22 @@
 
 ## CSS:
 ```css
+
+.animatedBorder,
+.textbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  background-color: rgb(127, 127, 127);
+}
+
 .animatedBorder {
   display: grid;
   grid-template-columns: 2% 1fr 1fr 2%;
