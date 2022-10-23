@@ -9,17 +9,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 196px;
+  height: 196px;
   margin: 4px;
-  background-color: rgb(127, 127, 127);
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 127, 0);
 }
 
 .animatedBorder {
   display: grid;
-  grid-template-columns: 2% 1fr 1fr 2%;
-  grid-template-rows: 2% 1fr 2%;
+  grid-template-columns: 4px 1fr 1fr 4px;
+  grid-template-rows: 4px 1fr 4px;
   width: 200px;
   height: 200px;
-  border: 1px solid rgb(127, 0, 0);
 }
 
 .animatedBorder:hover {
