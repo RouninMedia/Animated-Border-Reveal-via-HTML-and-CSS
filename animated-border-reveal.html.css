@@ -12,8 +12,11 @@
   width: 196px;
   height: 196px;
   margin: 4px;
+  font-size: 24px;
+  font-family: sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(255, 127, 0);
+  pointer-events: none;
 }
 
 .animatedBorder {
