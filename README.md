@@ -36,8 +36,8 @@
 .animatedBorder,
 .textbox {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 
 .textbox {
